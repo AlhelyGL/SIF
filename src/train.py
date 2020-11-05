@@ -221,7 +221,7 @@ else:
 if params.weightfile:
     word2weight = data_io.getWordWeight(params.weightfile, params.weightpara)
     params.weight4ind = data_io.getWeight(words, word2weight)
-    print 'word weights computed using parameter a=' + str(params.weightpara)
+    print('word weights computed using parameter a=' + str(params.weightpara))
 else:
     params.weight4ind = []
 if params.npc > 0:
